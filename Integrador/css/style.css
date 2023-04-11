@@ -1,0 +1,30 @@
+h6{
+font-size: 14px;
+font-weight: 200;
+}
+#titulo_banner{
+    text-align: right;
+}
+.position_banner{
+    position: absolute;
+    top: 480px;
+    left: 650px;
+    z-index: 1;
+    color:white;
+}
+#container{
+    display: flex;    
+    align-content: center;
+}
+#caja1, #caja2{
+    background-color: rgba(0, 0, 0, 0.780);
+    width: 680px;
+}
+
+.textoblanco{
+    color: white;
+}
+
+
+
+
