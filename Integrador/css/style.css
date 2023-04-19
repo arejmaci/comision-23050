@@ -12,19 +12,65 @@ font-weight: 200;
     z-index: 1;
     color:white;
 }
-#container{
-    display: flex;    
-    align-content: center;
+#botonabar{
+    background-color: rgba(5, 1, 1, 0.096);
+  }
+
+
+#botonabar:hover{
+    background-color: green;
 }
-#caja1, #caja2{
-    background-color: rgba(0, 0, 0, 0.780);
-    width: 680px;
+#container{
+    display: flex;
+    flex-wrap:wrap;
+    
+    /*align-content: left;*/
+    
+
+  /*   justify-content: space-around;
+      flex-wrap: wrap;
+      flex-wrap:wrap;
+  /*  flex-wrap: wrap-reverse; 
+    align-content: center;*/
 }
 
-.textoblanco{
+#caja2{
+    background-color: rgba(0, 0, 0, 0.780);
+    width: 669px;
+    padding-left: 11px; 
+ }
+
+#caja3, #caja4, #caja5{
+    background-color: red;
+    border: 2px solid black;
+    width: 669px;
+}
+
+
+
+
+.textoblanco1{
     color: white;
 }
 
+.textoblanco2{
+    color:   white;
+    font-size: 13px;
+}
 
+.textonegro1{
+    color: black;
+    font-size: 10px;
+}
 
-
+#conocemas{
+    background-color: rgba(5, 1, 1, 0.096);
+  }
+#conocemas:hover{
+    background-color: rgba(5, 1, 1, 0.096);
+    
+}
+.fondofooter
+{
+    background-color: rgba(6, 6, 7, 0.096)
+  }
