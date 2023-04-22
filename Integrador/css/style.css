@@ -20,18 +20,10 @@ font-weight: 200;
 #botonabar:hover{
     background-color: green;
 }
-#container{
+#container1{
     display: flex;
-    flex-wrap:wrap;
-    
-    /*align-content: left;*/
-    
-
-  /*   justify-content: space-around;
-      flex-wrap: wrap;
-      flex-wrap:wrap;
-  /*  flex-wrap: wrap-reverse; 
-    align-content: center;*/
+    flex-wrap: wrap;
+    align-content: center;
 }
 
 #caja2{
@@ -39,15 +31,6 @@ font-weight: 200;
     width: 669px;
     padding-left: 11px; 
  }
-
-#caja3, #caja4, #caja5{
-    background-color: red;
-    border: 2px solid black;
-    width: 669px;
-}
-
-
-
 
 .textoblanco1{
     color: white;
@@ -70,7 +53,12 @@ font-weight: 200;
     background-color: rgba(5, 1, 1, 0.096);
     
 }
-.fondofooter
-{
-    background-color: rgba(6, 6, 7, 0.096)
-  }
+.fondofooter{
+    background-color: rgba(212, 25, 34, 0.096)
+}
+
+ .abs-center {
+    display: flex;
+    justify-content: center; 
+    width: auto; 
+}
