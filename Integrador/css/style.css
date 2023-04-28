@@ -67,13 +67,17 @@ h6{
         /*text-align: right;*/
         text-align:start;
         padding-left: 70%;    
+        font-size: 30px;
+        font-weight: 0;        
     }
     #texto_banner{
         text-align:start;
         padding-left: 10%;    
+        font-size: 15px;
+        font-weight: 80;
+        
     }
     .position-relative {
-        /*bottom: auto;*/
         left: 350px;        
         height: 400px;
         width: 78%;
