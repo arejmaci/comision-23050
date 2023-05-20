@@ -1,4 +1,4 @@
-h6{
+   h6{
     font-size: 14px;
     font-weight: 200;
     }
@@ -84,4 +84,40 @@ h6{
        /*background-color: red;*/ 
         color:white;
     }
-   
+    /* pagina de compras */
+    #cajacompra{        
+        background-color: white;
+        width: 220px;        
+        border: 2px solid blue;        
+        margin-left: 0.2%;
+     }
+     #cajacomprajunior{        
+        background-color: white;
+        width: 220px;        
+        border: 2px solid orange;        
+        margin-left: 0.2%;
+     }
+
+     .containercajacompra{
+        display: flex;
+        justify-content:center; 
+        flex-wrap: wrap; 
+       
+    }
+    .notacajacompras{
+        color: black;
+        font-size: 12px;        
+    }
+    .TextoVenta{        
+        color: black;
+        font-size: 12px;        
+     }
+    
+     .TextoValor{        
+        color: black;
+        font-size: 34px;        
+     }
+     .botones_BR{
+        background-color: #96c93e;
+      }
+    
