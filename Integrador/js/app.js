@@ -40,8 +40,11 @@ form.addEventListener("submit", e => {
                 if (cantidad.value == 'cantidad' || isNaN(cantidad.value) == true) {
                     alert("Debe ingresar Cantidad");            
                 }else{
-                    calculartotal();                      
-                }            
-        }     
-    }
+                    calculartotal();                    
+                     }              
+                }     
+            }
 })     
+function ClearForm(){
+    document.getElementById('form').reset();                  
+}
