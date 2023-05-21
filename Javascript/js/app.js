@@ -72,6 +72,7 @@ Crear un programa que defina las variables “nota1” y “nota2”. Asignarle 
 Comparar si “nota1” es mayor a “nota2” imprimir el mensaje “Nota1 es mayor” o “Nota2 es  mayor” 
 según el resultado de la comparación. 
 */
+/*
 var nota1 = parseInt(prompt("ingrese primer nota: "));
 var nota2 = parseInt(prompt("ingrese segunda nota: "));
 
@@ -82,3 +83,91 @@ if (nota1 > nota2) {
     alert("nota1 es menor o igual que nota2");
     }
 
+  */
+    //Ejercicio 7.
+  /*   
+    Las puntuaciones de las películas se clasifican en: 
+    0: mala, 1: regular, 2: buena,3: muy buena, 4: excelente 
+    Crear un programa donde se pide al usuario que ingrese un valor entre 0 a 4. Imprimir la  clasificación de la película según el valor numérico. 
+    
+  
+    var puntuacion = prompt("ingrese puntuacion de la pelicula");
+
+    switch (puntuacion) {
+        case "0":
+            alert("Mala")
+            break;
+        case "1":
+            alert("regular")
+            break;
+        case "2":
+            alert("buena")
+            break;
+        case "3":
+            alert("muy buena")
+            break;            
+        case "4":
+            alert("excelente")
+            break;          
+    
+        default:
+            alert("categoria erronea");
+            break;
+    }
+ */
+//    Ejercicio 8. 
+ /* Crear un programa que imprima una cuenta regresiva de 59 a 0. 
+
+ for (let i = 59; i >= 0; i--) {
+    console.log("El valor de i con For es: " + i);
+ }
+*/
+// Ejercicio 9. 
+/* Crear un programa que imprima los números pares de 0 a 100. 
+
+for (let i = 0; i <= 100; i++) {
+    console.log("El valor de i con For es: " + i);
+ }
+*/
+// Ejercicio 10.
+ /* Crear un programa para imprimir todos los números de 100 a 0 inclusive, en 
+ 
+ for (let i = 100; i >= 0; i--) {
+    console.log("El valor de i con For es: " + i);
+ }
+*/
+// Ejercicio 11. 
+/*Crear un programa en donde el usuario ingresa números y se guardan en un array. Al ingresar “-1”  
+se imprimirán los números ingresado junto con sus posiciones dentro del array. 
+
+var puntuacion = parseInt(prompt("ingrese puntuacion de la pelicula: "));
+var puntuaciones = [];
+var posicion = 0;
+
+
+while (puntuacion !== -1) {    
+    puntuaciones[posicion] = puntuacion;
+    posicion++; 
+    puntuacion = parseInt(prompt("ingrese puntuacion de la pelicula: "));
+}
+for (let i = 0; i < puntuaciones.length; i++) {
+    console.log("El valor de la puntuacion es: " + puntuaciones[i] + " posicion: " + i);
+ }
+*/
+ // Ejercicio 12. 
+/* Crear un programa en donde el usuario ingresa números hasta que ingresa “-1”, en dicho caso el  
+programa termina e imprime el promedio de los números ingresados. */
+
+var puntuacion = parseInt(prompt("ingrese puntuacion de la pelicula: "));
+var puntuaciones = [];
+var posicion = 0;
+var puntuacion_suma = 0;
+while (puntuacion !== -1) {    
+    puntuaciones[posicion] = puntuacion;
+    posicion++; 
+    puntuacion = parseInt(prompt("ingrese puntuacion de la pelicula: "));
+}
+for (let i = 0; i < puntuaciones.length; i++) {
+    puntuacion_suma = puntuacion_suma +  puntuaciones[i]
+ }
+ console.log("Promedio: " + (puntuacion_suma/puntuaciones.length) );
