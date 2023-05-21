@@ -38,6 +38,7 @@
           </nav>
     </header>
     <main>
+        
      <br>
      <div class="containercajacompra">
         <div id="cajacompra">
@@ -65,24 +66,24 @@
         <p class="text-center TextoValor font-weight-bold">VALOR DEL TICKET $200</p>
      </div>
     <!-- Formulario-->
-    <form>
+    <form action="" id="form">
         <div class="form-row abs-center">
           <div class="col-md-3 mb-3">          
-            <input type="text" class="form-control" id="validationDefault01" value="Nombre" required>
+            <input type="text" class="form-control" id="inputnombre" value="Nombre" required>
           </div>
           <div class="col-md-3 mb-3">          
-            <input type="text" class="form-control" id="validationDefault02" value="Apellido" required>
+            <input type="text" class="form-control" id="inputapellido" value="Apellido" required>
           </div>                    
         </div>
         <div class="form-row abs-center">
             <div class="col-md-6 mb-3">          
-                <input type="email" class="form-control" id="validationDefault02" value="Correo" required>
+                <input type="email" class="form-control" id="inputcorreo" value="Correo" required>
              </div>                    
          </div>     
          <div class="form-row abs-center">
             <div class="col-md-3 mb-3">       
              <label for="Cantidad">Cantidad</label>   
-              <input type="text" class="form-control" id="cantidad" value="Cantidad" required>
+             <input type="Text" class="form-control" id="inputcantidad" value="cantidad" required>
             </div>
             <div class="col-md-3 mb-3">
                 <label for="inputEstudiante">Estudiante</label>
@@ -95,7 +96,7 @@
           </div>                
           <div class="form-row abs-center">
             <div class="col-md-6 mb-3">          
-                <input type="text" class="form-control" id="validationDefault02" value="Total a Pagar: $" disabled>
+                <input type="text" class="form-control" id="totalApagar" value="Total a Pagar: $" disabled>
              </div>                    
          </div>     
          <div class="form-row abs-center">
@@ -105,10 +106,9 @@
             <div class="col-md-3 mb-3">                    
               <button class="botones_BR btn btn-block text-white" type="submit">Resumen</button>
             </div>
-          </div>               
-
-      </form>
-
+          </div>
+      </form>      
+      <script src="./js/app.js"></script>
      </main>
     <footer>
         <!-- Navbar Footer -->
@@ -143,9 +143,6 @@
            </div>
          </nav>
     </footer>
-    <script src="./bootstrap-4.6-2.2-dist/js/bootstrap.min.js"></script>
-    <!--  -->
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    
 </body>
 </html>
